@@ -1,0 +1,708 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CozyNest</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/styles/styles.css" />
+    <link rel="stylesheet" href="assets/styles/index.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg">
+      <div class="container">
+        <a class="navbar-brand" href="./index.html">CozyNest</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" href="./index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./about.html">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./contact.html">Contact Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./shop.html">Shop</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./product.html">Products</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <header class="header mb-5">
+      <div
+        id="carouselExampleIndicators"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+
+        <div class="carousel-inner">
+          <!-- Slide 1 -->
+          <div class="carousel-item active">
+            <img
+              src="./assets/images/banner7.jpg"
+              class="d-block w-100 imga"
+              alt="Slide 1"
+            />
+            <div class="carousel-caption-content">
+              <h2>Welcome to CozyNest</h2>
+              <p>Find your comfort with our premium furniture collection.</p>
+              <a href="./products.html" class="btn">Shop Now</a>
+            </div>
+          </div>
+
+          <!-- Slide 2 -->
+          <div class="carousel-item">
+            <img
+              src="./assets/images/banner8.jpg"
+              class="d-block w-100 imga"
+              alt="Slide 2"
+            />
+            <div class="carousel-caption-content">
+              <h2>Elegant Designs</h2>
+              <p>Modern, cozy, and made with love.</p>
+              <a href="./about-us.html" class="btn">Learn More</a>
+            </div>
+          </div>
+
+          <!-- Slide 3 -->
+          <div class="carousel-item">
+            <img
+              src="./assets/images/banner9.jpg"
+              class="d-block w-100 imga"
+              alt="Slide 3"
+            />
+            <div class="carousel-caption-content">
+              <h2>Style That Speaks</h2>
+              <p>Furniture that transforms your home into a story.</p>
+              <a href="./contact-us.html" class="btn">Contact Us</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Controls -->
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </header>
+
+    <main class="main my-5">
+      <div class="container text-center">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 my-5">
+          <div class="col border py-3">
+            <h5>Free Delivery</h5>
+            <p class="mb-0">Worldwide</p>
+          </div>
+          <div class="col border py-3">
+            <h5>Money Returns</h5>
+            <p class="mb-0">30 Days money return</p>
+          </div>
+          <div class="col border py-3">
+            <h5>27/4 Online Support</h5>
+            <p class="mb-0">Customer Support</p>
+          </div>
+          <div class="col border py-3">
+            <h5>Payment Security</h5>
+            <p class="mb-0">Safe Payment</p>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <p class="h2 text-center">Exclusive Products</p>
+        <div
+          class="row row-cols-1 row-cols-sm-2 row-cols-md-4 my-5 exclusive-products text-center"
+        >
+          <div class="col my-3">
+            <div class="">
+              <div class="card" style="width: 100%">
+                <img
+                  src="./assets/images/furniture_img1.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Modern Sofa</h5>
+                  <p class="card-text">
+                    Experience luxury and comfort with our Modern Sofa, crafted
+                    from premium materials and elegant design.
+                  </p>
+                  <p class="card-text text-danger fw-bold">
+                    $45.00
+                    <span
+                      class="text-decoration-line-through fw-medium text-body-secondary"
+                      >$55.25</span
+                    >
+                  </p>
+                  <a
+                    href="/product.html?slug=modern-sofa"
+                    class="btn btn-primary"
+                    >Add To Cart</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col my-3">
+            <div class="">
+              <div class="card" style="width: 100%">
+                <img
+                  src="./assets/images/furniture_img2.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Elegant Coffee Table</h5>
+                  <p class="card-text">
+                    A stylish centerpiece for your living room, made from solid
+                    oak wood and polished to perfection.
+                  </p>
+                  <p class="card-text text-danger fw-bold">
+                    $45.00
+                    <span
+                      class="text-decoration-line-through fw-medium text-body-secondary"
+                      >$55.25</span
+                    >
+                  </p>
+                  <a
+                    href="/product.html?slug=elegant-coffee-table"
+                    class="btn btn-primary"
+                    >Add To Cart</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col my-3">
+            <div class="">
+              <div class="card" style="width: 100%">
+                <img
+                  src="./assets/images/furniture_img3.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Classic Armchair</h5>
+                  <p class="card-text">
+                    Relax in style with our Classic Armchair, featuring plush
+                    cushions and timeless design.
+                  </p>
+                  <p class="card-text text-danger fw-bold">
+                    $45.00
+                    <span
+                      class="text-decoration-line-through fw-medium text-body-secondary"
+                      >$55.25</span
+                    >
+                  </p>
+                  <a
+                    href="/product.html?slug=classic-armchair"
+                    class="btn btn-primary"
+                    >Add To Cart</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col my-3">
+            <div class="">
+              <div class="card" style="width: 100%">
+                <img
+                  src="./assets/images/furniture_img4.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Wooden Dining Table</h5>
+                  <p class="card-text">
+                    Gather your family around this handcrafted Wooden Dining
+                    Table, designed for durability and elegance.
+                  </p>
+                  <p class="card-text text-danger fw-bold">
+                    $45.00
+                    <span
+                      class="text-decoration-line-through fw-medium text-body-secondary"
+                      >$55.25</span
+                    >
+                  </p>
+                  <a
+                    href="/product.html?slug=wooden-dining-table"
+                    class="btn btn-primary"
+                    >Add To Cart</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col my-3">
+            <div class="">
+              <div class="card" style="width: 100%">
+                <img
+                  src="./assets/images/furniture_img5.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Minimalist Bed Frame</h5>
+                  <p class="card-text">
+                    Upgrade your bedroom with our Minimalist Bed Frame, blending
+                    simplicity and strength.
+                  </p>
+                  <p class="card-text text-danger fw-bold">
+                    $45.00
+                    <span
+                      class="text-decoration-line-through fw-medium text-body-secondary"
+                      >$55.25</span
+                    >
+                  </p>
+                  <a
+                    href="/product.html?slug=minimalist-bed-frame"
+                    class="btn btn-primary"
+                    >Add To Cart</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col my-3">
+            <div class="">
+              <div class="card" style="width: 100%">
+                <img
+                  src="./assets/images/furniture_img6.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Minimalist Bed Frame</h5>
+                  <p class="card-text">
+                    Upgrade your bedroom with our Minimalist Bed Frame, blending
+                    simplicity and strength.
+                  </p>
+                  <p class="card-text text-danger fw-bold">
+                    $45.00
+                    <span
+                      class="text-decoration-line-through fw-medium text-body-secondary"
+                      >$55.25</span
+                    >
+                  </p>
+                  <a
+                    href="/product.html?slug=minimalist-bed-frame"
+                    class="btn btn-primary"
+                    >Add To Cart</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col my-3">
+            <div class="">
+              <div class="card" style="width: 100%">
+                <img
+                  src="./assets/images/furniture_img7.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Contemporary Bookshelf</h5>
+                  <p class="card-text">
+                    Showcase your favorite books and decor with our sleek
+                    Contemporary Bookshelf.
+                  </p>
+                  <p class="card-text text-danger fw-bold">
+                    $45.00
+                    <span
+                      class="text-decoration-line-through fw-medium text-body-secondary"
+                      >$55.25</span
+                    >
+                  </p>
+                  <a
+                    href="/product.html?slug=contemporary-bookshelf"
+                    class="btn btn-primary"
+                    >Add To Cart</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col my-3">
+            <div class="">
+              <div class="card" style="width: 100%">
+                <img
+                  src="./assets/images/furniture_img8.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Luxury Office Chair</h5>
+                  <p class="card-text">
+                    Work in comfort and style with our Luxury Office Chair,
+                    featuring ergonomic design and premium leather.
+                  </p>
+                  <p class="card-text text-danger fw-bold">
+                    $45.00
+                    <span
+                      class="text-decoration-line-through fw-medium text-body-secondary"
+                      >$55.25</span
+                    >
+                  </p>
+                  <a
+                    href="/product.html?slug=luxury-office-chair"
+                    class="btn btn-primary"
+                    >Add To Cart</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="container py-5">
+          <div class="row g-4">
+            <div class="col-md-5">
+              <div class="promo-box">
+                <img
+                  src="./assets/images/furniture_banner1.jpg"
+                  alt="New Collection"
+                />
+                <div class="promo-text">
+                  <h5>Super Sale</h5>
+                  <h2>New Collection</h2>
+                  <a href="#">Shop Now</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-7">
+              <div class="promo-box">
+                <img
+                  src="./assets/images/furniture_banner2.jpg"
+                  alt="New Season"
+                />
+                <div class="promo-text">
+                  <h2>New Season</h2>
+                  <h5>Sale 40% Off</h5>
+                  <a href="#">Shop Now</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="container py-5">
+          <h2 class="text-center mb-4 trending-title">Trending Items</h2>
+          <div
+            id="trendingCarousel"
+            class="carousel slide"
+            data-bs-ride="carousel"
+          >
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="row">
+                  <div class="col-lg-3 col-md-4 col-4">
+                    <div class="card product-card">
+                      <img
+                        src="./assets/images/furniture_img1.jpg"
+                        class="card-img-top"
+                        alt="Item 1"
+                      />
+                      <div class="card-body text-center">
+                        <h6 class="card-title">Many Desktop Publishing</h6>
+                        <p class="price">
+                          <span class="text-danger fw-bold">$69.00</span>
+                          <del>$89.00</del>
+                        </p>
+                        <p class="rating">⭐⭐⭐⭐⭐ <span>(22)</span></p>
+
+                        <a href="#" class="btn btn-primary">Add To Cart</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 col-md-4 col-4">
+                    <div class="card product-card">
+                      <img
+                        src="./assets/images/furniture_img2.jpg"
+                        class="card-img-top"
+                        alt="Item 2"
+                      />
+                      <div class="card-body text-center">
+                        <h6 class="card-title">Injected Humour Repetition</h6>
+                        <p class="price">
+                          <span class="text-danger fw-bold">$45.00</span>
+                          <del>$55.25</del>
+                        </p>
+                        <p class="rating">⭐⭐⭐⭐⭐ <span>(21)</span></p>
+
+                        <a href="#" class="btn btn-primary">Add To Cart</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 col-md-4 col-4">
+                    <div class="card product-card">
+                      <img
+                        src="./assets/images/furniture_img3.jpg"
+                        class="card-img-top"
+                        alt="Item 3"
+                      />
+                      <div class="card-body text-center">
+                        <h6 class="card-title">Randomised Humour Words</h6>
+                        <p class="price">
+                          <span class="text-danger fw-bold">$55.00</span>
+                          <del>$95.00</del>
+                        </p>
+                        <p class="rating">⭐⭐⭐⭐⭐ <span>(15)</span></p>
+
+                        <a href="#" class="btn btn-primary">Add To Cart</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 col-md-4 col-4 d-lg-block d-none">
+                    <div class="card product-card">
+                      <img
+                        src="./assets/images/furniture_img4.jpg"
+                        class="card-img-top"
+                        alt="Item 4"
+                      />
+                      <div class="card-body text-center">
+                        <h6 class="card-title">Enim Expedita Sed</h6>
+                        <p class="price">
+                          <span class="text-danger fw-bold">$45.00</span>
+                          <del>$55.25</del>
+                        </p>
+                        <p class="rating">⭐⭐⭐⭐⭐ <span>(21)</span></p>
+
+                        <a href="#" class="btn btn-primary">Add To Cart</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="row">
+                  <div class="col-lg-3 col-md-4 col-4">
+                    <div class="card product-card">
+                      <img
+                        src="./assets/images/furniture_img5.jpg"
+                        class="card-img-top"
+                        alt="Item 5"
+                      />
+                      <div class="card-body text-center">
+                        <h6 class="card-title">Chair Wood Modern</h6>
+                        <p class="price">
+                          <span class="text-danger fw-bold">$59.00</span>
+                          <del>$79.00</del>
+                        </p>
+                        <p class="rating">⭐⭐⭐⭐⭐ <span>(18)</span></p>
+
+                        <a href="#" class="btn btn-primary">Add To Cart</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 col-md-4 col-4">
+                    <div class="card product-card">
+                      <img
+                        src="./assets/images/furniture_img6.jpg"
+                        class="card-img-top"
+                        alt="Item 6"
+                      />
+                      <div class="card-body text-center">
+                        <h6 class="card-title">Stylish Chair Classic</h6>
+                        <p class="price">
+                          <span class="text-danger fw-bold">$72.00</span>
+                          <del>$90.00</del>
+                        </p>
+                        <p class="rating">⭐⭐⭐⭐ <span>(11)</span></p>
+
+                        <a href="#" class="btn btn-primary">Add To Cart</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 col-md-4 col-4">
+                    <div class="card product-card">
+                      <img
+                        src="./assets/images/furniture_img7.jpg"
+                        class="card-img-top"
+                        alt="Item 7"
+                      />
+                      <div class="card-body text-center">
+                        <h6 class="card-title">Wood Minimal Stool</h6>
+                        <p class="price">
+                          <span class="text-danger fw-bold">$39.00</span>
+                          <del>$60.00</del>
+                        </p>
+                        <p class="rating">⭐⭐⭐⭐ <span>(13)</span></p>
+
+                        <a href="#" class="btn btn-primary">Add To Cart</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-3 col-md-4 col-4 d-lg-block d-none">
+                    <div class="card product-card">
+                      <img
+                        src="./assets/images/furniture_img8.jpg"
+                        class="card-img-top"
+                        alt="Item 8"
+                      />
+                      <div class="card-body text-center">
+                        <h6 class="card-title">Classic Dining Stool</h6>
+                        <p class="price">
+                          <span class="text-danger fw-bold">$65.00</span>
+                          <del>$85.00</del>
+                        </p>
+                        <p class="rating">⭐⭐⭐⭐⭐ <span>(19)</span></p>
+
+                        <a href="#" class="btn btn-primary">Add To Cart</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#trendingCarousel"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#trendingCarousel"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="site-footer">
+      <div class="footer-container">
+        <div class="footer-section about">
+          <h4>About Us</h4>
+          <p>
+            We're dedicated to bringing you the best selection of trending and
+            high-quality products, all with a touch of elegance.
+          </p>
+        </div>
+
+        <div class="footer-section links">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Shop</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-section newsletter">
+          <h4>Stay Updated</h4>
+          <form>
+            <input type="email" placeholder="Your email address" required />
+            <button type="submit">Subscribe</button>
+          </form>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2025 CozyNest. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+      // Parallax Effect
+      window.addEventListener('scroll', function () {
+        const scrollY = window.scrollY
+        document.querySelectorAll('.carousel-item .imga').forEach((img) => {
+          img.style.transform = `translateY(${scrollY * 0.2}px)` // parallax movement
+        })
+      })
+
+      // Sticky Navbar After 10dvh Scroll
+      const navbar = document.querySelector('.navbar')
+      window.addEventListener('scroll', function () {
+        const triggerPoint = window.innerHeight * 0.1 // 10dvh
+        if (window.scrollY > triggerPoint) {
+          navbar.classList.add('sticky-on-scroll')
+        } else {
+          navbar.classList.remove('sticky-on-scroll')
+        }
+      })
+    </script>
+  </body>
+</html>

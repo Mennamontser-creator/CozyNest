@@ -1,0 +1,123 @@
+/* Product Cards */
+.product-img {
+  height: 220px;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.card:hover .product-img {
+  transform: scale(1.03);
+}
+
+.sidebar {
+  background: #fff;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+.product-card {
+  background: #fff;
+  padding: 1.5rem;
+  border-radius: 12px;
+  margin-bottom: 1.5rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* List View Specific */
+.product-card.list-view {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+
+.product-card.list-view .product-img {
+  width: 250px;
+  height: 200px;
+}
+
+.product-card.list-view .product-details {
+  flex: 1;
+}
+
+/* Rating Stars */
+.rating {
+  color: #ffc107;
+  font-size: 1rem;
+}
+
+/* View Toggle Buttons */
+.view-toggle .btn {
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+}
+
+.view-toggle .btn.active {
+  background-color: #e69db8;
+  color: white;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .product-card.list-view {
+    flex-direction: column;
+  }
+
+  .product-card.list-view .product-img {
+    width: 100%;
+  }
+}
+
+/* View Toggle */
+.view-toggle .btn {
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+
+.view-toggle .btn.active {
+  background-color: var(--main-color);
+  color: white;
+  border-color: var(--main-color);
+}
+
+/* Product Cards */
+.product-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* List View */
+.product-card.list-view {
+  display: flex;
+  gap: 2rem;
+  padding: 1.5rem;
+  background: white;
+  border-radius: 8px;
+}
+
+.product-card.list-view .product-img {
+  width: 250px;
+  height: 200px;
+  object-fit: cover;
+}
+
+@media (max-width: 768px) {
+  .product-card.list-view {
+    flex-direction: column;
+  }
+
+  .product-card.list-view .product-img {
+    width: 100%;
+  }
+}

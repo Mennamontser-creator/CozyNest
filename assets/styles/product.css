@@ -1,0 +1,57 @@
+.btn-main {
+  background-color: #e69db8;
+  color: white;
+  border: none;
+}
+
+.btn-main:hover {
+  background-color: #d26fa5;
+}
+
+.card h6 {
+  font-size: 1rem;
+}
+
+/* Product Gallery */
+.product-gallery img {
+  border-radius: var(--border-radius);
+  transition: transform 0.3s ease;
+}
+
+.product-gallery img:hover {
+  transform: scale(1.02);
+}
+
+/* Thumbnails */
+.img-thumbnail {
+  cursor: pointer;
+  transition: border-color 0.3s ease;
+}
+
+.img-thumbnail:hover {
+  border-color: var(--main-color);
+}
+
+/* Tabs */
+.nav-tabs .nav-link {
+  color: #495057;
+}
+
+.nav-tabs .nav-link.active {
+  color: var(--main-color);
+  border-color: var(--main-color);
+}
+
+/* Quantity Input */
+.input-group {
+  max-width: 150px;
+}
+
+/* Related Products */
+#related-products .card {
+  transition: transform 0.3s ease;
+}
+
+#related-products .card:hover {
+  transform: translateY(-5px);
+}

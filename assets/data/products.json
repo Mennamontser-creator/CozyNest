@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "Modern Sofa",
+    "slug": "modern-sofa",
+    "price": 500,
+    "salePrice": 450,
+    "discountPercent": 10,
+    "rating": 4.5,
+    "reviewsCount": 25,
+    "description": "Experience luxury and comfort with our Modern Sofa, crafted from premium materials and elegant design.",
+    "image": "./assets/images/furniture_img1.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Elegant Coffee Table",
+    "slug": "elegant-coffee-table",
+    "price": 200,
+    "salePrice": 180,
+    "discountPercent": 10,
+    "rating": 4.2,
+    "reviewsCount": 18,
+    "description": "A stylish centerpiece for your living room, made from solid oak wood and polished to perfection.",
+    "image": "./assets/images/furniture_img2.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Classic Armchair",
+    "slug": "classic-armchair",
+    "price": 300,
+    "salePrice": 270,
+    "discountPercent": 10,
+    "rating": 4.7,
+    "reviewsCount": 32,
+    "description": "Relax in style with our Classic Armchair, featuring plush cushions and timeless design.",
+    "image": "./assets/images/furniture_img3.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Wooden Dining Table",
+    "slug": "wooden-dining-table",
+    "price": 750,
+    "salePrice": 675,
+    "discountPercent": 10,
+    "rating": 4.6,
+    "reviewsCount": 20,
+    "description": "Gather your family around this handcrafted Wooden Dining Table, designed for durability and elegance.",
+    "image": "./assets/images/furniture_img4.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Minimalist Bed Frame",
+    "slug": "minimalist-bed-frame",
+    "price": 600,
+    "salePrice": 540,
+    "discountPercent": 10,
+    "rating": 4.4,
+    "reviewsCount": 15,
+    "description": "Upgrade your bedroom with our Minimalist Bed Frame, blending simplicity and strength.",
+    "image": "./assets/images/furniture_img5.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Contemporary Bookshelf",
+    "slug": "contemporary-bookshelf",
+    "price": 350,
+    "salePrice": 315,
+    "discountPercent": 10,
+    "rating": 4.3,
+    "reviewsCount": 10,
+    "description": "Showcase your favorite books and decor with our sleek Contemporary Bookshelf.",
+    "image": "./assets/images/furniture_img6.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Luxury Office Chair",
+    "slug": "luxury-office-chair",
+    "price": 400,
+    "salePrice": 360,
+    "discountPercent": 10,
+    "rating": 4.8,
+    "reviewsCount": 28,
+    "description": "Work in comfort and style with our Luxury Office Chair, featuring ergonomic design and premium leather.",
+    "image": "./assets/images/furniture_img7.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Vintage Nightstand",
+    "slug": "vintage-nightstand",
+    "price": 180,
+    "salePrice": 162,
+    "discountPercent": 10,
+    "rating": 4.1,
+    "reviewsCount": 12,
+    "description": "Add charm to your bedroom with this beautifully crafted Vintage Nightstand.",
+    "image": "./assets/images/furniture_img8.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Scandinavian TV Stand",
+    "slug": "scandinavian-tv-stand",
+    "price": 500,
+    "salePrice": 450,
+    "discountPercent": 10,
+    "rating": 4.5,
+    "reviewsCount": 22,
+    "description": "Sleek and functional Scandinavian-style TV Stand, perfect for modern homes.",
+    "image": "./assets/images/furniture_img9.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Rustic Wardrobe",
+    "slug": "rustic-wardrobe",
+    "price": 900,
+    "salePrice": 810,
+    "discountPercent": 10,
+    "rating": 4.6,
+    "reviewsCount": 19,
+    "description": "Organize your clothing in this beautiful Rustic Wardrobe made from reclaimed wood.",
+    "image": "./assets/images/furniture_img10.jpg"
+  }
+]

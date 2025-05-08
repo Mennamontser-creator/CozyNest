@@ -1,0 +1,22 @@
+.text-main {
+  color: #e69db8;
+}
+
+.btn-main {
+  background-color: #e69db8;
+  color: white;
+  border: none;
+}
+
+.btn-main:hover {
+  background-color: #d26fa5;
+}
+
+.card {
+  border-radius: 1rem;
+}
+
+.breadcrumb a {
+  text-decoration: none;
+  color: #e69db8;
+}
